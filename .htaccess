@@ -1,0 +1,5 @@
+RewriteEngine On
+
+Options -Indexes
+
+RewriteRule ^movie/([a-zA-Z0-9-:]+) movie.php?q=$1 [L]

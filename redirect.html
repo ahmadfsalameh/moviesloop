@@ -1,0 +1,5 @@
+<script>
+  $redirect = window.localStorage.getItem("moviesloop-redirect");
+  if ($redirect == null) window.location.href = "./";
+  else window.location.href = $redirect;
+</script>
